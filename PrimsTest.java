@@ -9,6 +9,7 @@ public class PrimsTest {
 		System.setProperty("webdriver.chrome.driver", "‪F:\\chromedriver.exe");
 		WebDriver driver= new ChromeDriver();
 		driver.get("http://primusbank.qedgetech.com");
+		driver.manage().window().maximize();
 	}
 
 }
